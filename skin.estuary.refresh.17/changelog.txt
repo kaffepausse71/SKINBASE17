@@ -1,0 +1,121 @@
+﻿[B]6.0.0[/B]
+• Neue EPG Ansichten hinzugefügt (EPGNOW / EPGNEXT)
+• EPG Timeline überarbeitet
+• Anzahl der WIdget Einträge bei Playlisten ist wählbar
+• Neue Genre Ansicht hinzugefügt (für starke Systeme,  ansonsten dauert es länger bis die Ansicht geladen ist)
+• Fehler bei der anzeige der Handlungen behoben
+• Transparenz der Hintergrund Bilder ist nun wählbar (in den Views sowie Home)
+• Script Audio_DB zusammen vereint mit dem script Last_FM (Danke @BJ1)
+• Überlagerung in der Dialogvideoinfo beseitigt
+• Benötigte Scripte werden nun in den Settings angezeigt und können dort installiert werden
+• Musikwiedergabe wurde überarbeitet
+
+[B]3.9.6[/B]
+• Kategorie widget für radio hinzugefügt 
+• Kategorie widget für aufnahmen / timer hinzugefügt
+• Kategorie Beschreibungen hinzugefügt
+• Setting für kategorie beschreibungen hinzugefügt
+• Fehler in der navigation (settings) behoben
+
+
+
+[B]3.9.5[/B]
+• radio wiedergabe angepasst
+• erweiterte genre ansicht (muss im contextmenu aktiviert werden)
+• Livetv Ansicht neu gestaltet
+• Rating badge abschaltbar in den settings 
+  (wenn das userrating leer ist zeigt er das imdb/tvdb rating an sofern das rating aktiviert ist)
+• Das Userrating Badge hat eine andere Farbe als das normale Rating
+
+
+[B]3.9.0[/B]
+• Skin um die Sprache Englisch erweitert.
+• Pinboard erweitert
+• Sublabel Konfiguration neu sortiert und um Pinboard infos erweitert
+• Widget Konfiguration neu sortiert und in Kategorien unterteilt
+• Sublabel - Pinboard Statistiken hinzugefügt
+• Spendenbutton in den Forumspost eingefügt.
+
+
+[B]3.8.1[/B]
+• Fehler im Widgets System behoben (musikvideos widgets wurden nicht angezeigt)
+
+[B]3.8.0[/B]
+• SetView Sortierung der Filme geändert (Nach Jahr)
+• Diverse Fehler Homemenu Pvr Widgets behoben
+• GermanTelecast Offers Widgets hinzugefügt 
+• Aufnahme Widget TV korrigiert
+• Homemenu Focus bei den oberen Buttons korrigiert (fadet runter)
+• Problem mit den Kategorie Widgets behoben (wurden teilweise nicht geladen)
+• Sublabels im Homemenu können nun definiert werden
+• Fehler in der DialogVideoinfoSets behoben, beim abspielen von Filmen aus dem Set
+• Fehler in der PosterView behoben (klammern wurden angezeigt)
+• Fehler in der WallView behoben (liste mit Sets war zu lang)
+• Gesehen Makierung in der SetView hinzugefügt
+• Teilweise mit der Übersetzung ins Englische angefangen. (danke @'CVH')
+• PinBoard System eingebaut, ersetzt die Favoriten (vielen dank an @marc0810)
+
+
+[B]3.7.7[/B]
+• Widgets hinzugefügt (Library Data Provider) (Zufällige(Lieder) / Angefangene(Alben) / Zufällige(Alben) / Neue(Alben) / Angefangene (Episoden))
+
+
+[B]3.7.6[/B]
+• Fehler in der Menüerstellung behoben (Widget Kategorie wurde nicht angezeigt unter music)
+
+[B]3.7.5[/B]
+• Fehler in der Menüerstellung behoben (onclicks / icons)
+• Fehler der falschen design auswahl der widgets behoben
+• Fehler in der Position des Widgets behoben falls die Library leer ist, zb keine Musicvideos
+
+
+[B]3.7.4[/B]
+• Favoriten sublabel hinzugefügt
+• German telecast offers widget angepasst
+• Das komplette Hauptmenü + Widgets ist jetzt frei wählbar
+##### globalsearch anpassen
+
+
+[B]3.7.3[/B]
+• Fehler in der musicvisualisation korrigiert (playlist anzeige während radio empfang)
+• Aufnahme / geplante aufnahme Icon Position korrigiert
+• Pvr Kanäle Ansicht, Pfeile angepasst an den Skin
+• Favoriten zu Widget auswahl hinzugefügt
+• Listen layout geändert, Home + Settings
+• Script German telecast Offer eingebaut, muss aber erst unter Skin aktiviert werden.
+
+
+[B]3.7.2[/B]
+• Hauptmenü Sublabels korrigiert (wurden leer angezeigt)
+• Setview Rating auch für Filme im Set hinzugefügt (sobald diese makiert sind)
+• Setview FSK hinzugefügt (auf dem Cover)
+• Badge + Rating in der Dialogvideoinfo hinzugefügt sowie Videoinfosets (auch für Ähnliche Filme / Serien)
+• Dialogvideoinfo "ähnliche Filme" Pfeile für vorherige / nächste Seite hinzugefügt
+• VideoinfoSets Button "schliessen" Icon korrigiert
+• VideoinfoSets FSK für Filme im Set hinzugefügt
+• Dialogvideoinfo Fehler bei Onup auf Schauspielern behoben (hat nicht nach dem schauspieler gesucht sondern dem Film)
+• Fehler im Globalsearch behoben, ergebnisse kriegen kein Focus aus der Dialogvideoinfo 
+• Globalsearch "suchtitel" hinzugefügt 
+
+ 
+[B]3.7.1[/B]
+• Fanart zu Eigenenen Widget Einträgen hinzugefügt
+• Dialog zum auswählen der Widgets angepasst
+• Globalsearch angepasst
+• Badges (Bewertung) aktiviert
+• Dialogvideoinfo Onup auf Schauspieler, sucht per Globalsearch, nicht mehr über das extendedinfo script
+• Homemenü sublabels hinzugefügt
+• Rating Badge in der Set Ansicht korrigiert
+• Ähnliche Filme / Serien visible korrigiert + Bezeichnung des Buttons
+
+
+[B]3.6.1[/B]
+• Fehler in Dialog Position behoben
+• Oninfo nun für alle Fenster bereitgestellt
+• PosterAnsicht Fehlerbehoben falsche anzeige der Ungesehehen Folgen
+• Widelist Plot für alben / Songs usw wieder hergestellt
+
+
+[B]3.6.0[/B]
+• Oninfo Für Sets hinzugefügt
+• Eigene MenüPunkte hinzugefügt

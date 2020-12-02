@@ -1,0 +1,2 @@
+id="skin.confluence17_hsk"
+version="5.0.00"
