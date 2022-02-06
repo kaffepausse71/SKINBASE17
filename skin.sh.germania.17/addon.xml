@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="skin.sh.germania.17" version="5.0.58" name="[COLOR aqua]SH GERMANIA[/COLOR]" provider-name="SKINBASE">
+	<requires>
+		<import addon="xbmc.gui" version="5.12.0"/>
+		<import addon="script.artistslideshow" version="2.0.8"/>
+		<import addon="script.artistslideshow-helper" version="0.4.4"/>
+	</requires>
+	<extension point="xbmc.gui.skin" debugging="false" effectslowdown="1.0">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">Skins und Skin Themen by Guidos Skinbase.</summary>
+		<summary lang="en_GB">Skins and Skin Themen by Guidos Skinbase.</summary>
+		<description lang="de_DE">Guidos Skinbase Repo. Die Gröste Skinbase der Welt mit unzähligen Skin Mods  und Skin Themen aus der ganzen Welt. Ständig Erweitert und Verbessert, so sollte für jeden was dabei sein Viel Spass. </description>
+		<description lang="en_GB">Guido's Skinbase Repo. The world's largest skinbase with countless skin mods and skin themes from around the world. Constantly extended and improved, so there should be something for everyone Have fun.</description>
+		<platform>all</platform>
+		<news lang="de_DE">Guidos Skinbase Repo. Die Gröste Skinbase der Welt mit unzähligen Skin Mods  und Skin Themen aus der ganzen Welt. Ständig Erweitert und Verbessert, so sollte für jeden was dabei sein Viel Spass. </news>
+		<news lang="en_GB">Guido's Skinbase Repo. The world's largest skinbase with countless skin mods and skin themes from around the world. Constantly extended and improved, so there should be something for everyone Have fun.</news>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+		</assets>
+	</extension>
+</addon>
