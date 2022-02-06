@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="skin.xperience1080.17" version="6.0.15" name="[COLOR aqua]Xperience 1080[/COLOR] " provider-name="Piers, xhaggi">
+    <requires>
+        <import addon="xbmc.gui" version="5.12.0" />
+        <import addon="service.skin.widgets" version="0.0.29" />
+        <import addon="script.artwork.downloader" version="12.0.29" />
+        <import addon="script.tv.show.next.aired" version="6.0.13" />
+        <import addon="script.globalsearch" version="4.0.2" />
+        <import addon="script.favourites" version="6.0.1" />
+        <import addon="script.artistslideshow" version="1.8.2" />
+        <import addon="script.videolanguage" version="0.1.0" />
+        <import addon="script.randomandlastitems" version="2.2.2" />
+        <import addon="script.toolbox" version="1.0.1" />
+        <import addon="resource.images.studios.white" version="0.0.1"/>
+        <import addon="resource.images.musicgenreicons.grey" version="0.0.5"/>
+        <import addon="resource.images.moviegenreicons.white" version="0.0.5"/>
+        <import addon="resource.images.weatherfanart.multi" version="0.0.6"/>
+    </requires>
+    <extension point="xbmc.gui.skin" effectslowdown="0.80" debugging="false">
+        <res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+    </extension>
+    <extension point="xbmc.addon.metadata">
+         <summary lang="de_DE">Skins und Skin Themen by Guidos Skinbase.</summary>
+		<summary lang="en_GB">Skins and Skin Themen by Guidos Skinbase.</summary>
+		<description lang="de_DE">Guidos Skinbase Repo. Die Gröste Skinbase der Welt mit unzähligen Skin Mods  und Skin Themen aus der ganzen Welt. Ständig Erweitert und Verbessert, so sollte für jeden was dabei sein Viel Spass. </description>
+		<description lang="en_GB">Guido's Skinbase Repo. The world's largest skinbase with countless skin mods and skin themes from around the world. Constantly extended and improved, so there should be something for everyone Have fun.</description>
+		<platform>all</platform>
+		<news lang="de_DE">Guidos Skinbase Repo. Die Gröste Skinbase der Welt mit unzähligen Skin Mods  und Skin Themen aus der ganzen Welt. Ständig Erweitert und Verbessert, so sollte für jeden was dabei sein Viel Spass. </news>
+		<news lang="en_GB">Guido's Skinbase Repo. The world's largest skinbase with countless skin mods and skin themes from around the world. Constantly extended and improved, so there should be something for everyone Have fun.</news>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+			<screenshot>resources/screenshot000.jpg</screenshot>
+			<screenshot>resources/screenshot001.jpg</screenshot>
+			<screenshot>resources/screenshot002.jpg</screenshot>
+			<screenshot>resources/screenshot003.jpg</screenshot>
+			<screenshot>resources/screenshot004.jpg</screenshot>
+		</assets>
+    </extension>
+</addon>
