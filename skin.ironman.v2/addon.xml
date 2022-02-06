@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="skin.ironman.v2" version="6.0.13" name="[COLOR aqua]Iron Man v2[/COLOR]" provider-name="SiLVO">
+	<requires>
+		<import addon="xbmc.gui" version="5.12.0"/>
+		<import addon="script.grab.fanart" version="0.12.8"/>
+		<import addon="script.skinshortcuts" version="1.0.10"/>
+		<import addon="service.library.data.provider" version="0.0.7"/>
+		<import addon="resource.images.studios.white" version="0.0.1"/>
+		<import addon="resource.images.recordlabels.white" version="0.0.1"/>
+	</requires>
+	<extension point="xbmc.gui.skin" debugging="false" effectslowdown="0.75">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="16x9" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">Skins und Skin Themen by Guidos Skinbase.</summary>
+		<summary lang="en_GB">Skins and Skin Themen by Guidos Skinbase.</summary>
+		<description lang="de_DE">Guidos Skinbase Repo. Die Gröste Skinbase der Welt mit unzähligen Skin Mods  und Skin Themen aus der ganzen Welt. Ständig Erweitert und Verbessert, so sollte für jeden was dabei sein Viel Spass. </description>
+		<description lang="en_GB">Guido's Skinbase Repo. The world's largest skinbase with countless skin mods and skin themes from around the world. Constantly extended and improved, so there should be something for everyone Have fun.</description>
+		<platform>all</platform>
+		<news lang="de_DE">Guidos Skinbase Repo. Die Gröste Skinbase der Welt mit unzähligen Skin Mods  und Skin Themen aus der ganzen Welt. Ständig Erweitert und Verbessert, so sollte für jeden was dabei sein Viel Spass. </news>
+		<news lang="en_GB">Guido's Skinbase Repo. The world's largest skinbase with countless skin mods and skin themes from around the world. Constantly extended and improved, so there should be something for everyone Have fun.</news>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+			<screenshot>resources/screenshot001.jpg</screenshot>
+			<screenshot>resources/screenshot002.jpg</screenshot>
+			<screenshot>resources/screenshot003.jpg</screenshot>
+		</assets>
+		<news>[B]Based on [I]v6.0.1[/I]  of Aeon Nox 5[/B][CR][I]All Versions[/I][CR]- Misc fixes, changes, and/or improvements[CR][I]v6.0.13[/I][CR]- Fix Landscape view Media Menu navigation[CR]- Fix missing lyrics fonts[CR]- Add prefer local logo option to music viz[CR][I]v6.0.12[/I][CR]- Move Video OSD buttons above seekbar[CR]- Update VideoLyrics mod (thanks manfeed)[CR]- Misc PVR fixes and adjustments[CR]- Resize FSK rating images to fit in DialogVideoInfo[CR]- Fixes for Rottentomatoes and Metacritic images and INFOlabels[CR]- Fullscreen Info updates, fixes, and changes[CR]- Use script.colorbox for blur in information dialogs[CR]- Rework DialogMusicInfo[CR][CR]For a full list of changes visit https://github.com/mikesilvo164/Aeon-Nox-SiLVO/commits/master</news>
+	</extension>
+</addon>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="skin.kodiflix.red.17"
+  version="2.10.0"
+  name="[COLOR aqua]Kodiflix Red TV[/COLOR]"
+  provider-name="SchisM">
+  <requires>
+    <import addon="xbmc.gui" version="5.12.0"/>
+		<import version="0.4.0" addon="script.skinshortcuts"/>
+		<import version="0.1.0" addon="service.library.data.provider"/>
+		<import version="1.0.0" addon="script.skin.helper.service" />
+		<import version="1.0.0" addon="script.toolbox"/>
+		<import version="1.0.1" addon="plugin.program.autocompletion"/>
+		<import addon="resource.images.studios.coloured" /> 
+	</requires>
+  <extension
+    point="xbmc.gui.skin"
+    debugging="false"
+    effectslowdown="0.75">
+	<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+ </extension>
+  <extension point="xbmc.addon.metadata">
+ 		<summary lang="de_DE">Skins und Skin Themen by Guidos Skinbase.</summary>
+		<summary lang="en_GB">Skins and Skin Themen by Guidos Skinbase.</summary>
+		<description lang="de_DE">Guidos Skinbase Repo. Die Gröste Skinbase der Welt mit unzähligen Skin Mods  und Skin Themen aus der ganzen Welt. Ständig Erweitert und Verbessert, so sollte für jeden was dabei sein Viel Spass. </description>
+		<description lang="en_GB">Guido's Skinbase Repo. The world's largest skinbase with countless skin mods and skin themes from around the world. Constantly extended and improved, so there should be something for everyone Have fun.</description>
+		<platform>all</platform>
+		<news lang="de_DE">Guidos Skinbase Repo. Die Gröste Skinbase der Welt mit unzähligen Skin Mods  und Skin Themen aus der ganzen Welt. Ständig Erweitert und Verbessert, so sollte für jeden was dabei sein Viel Spass. </news>
+		<news lang="en_GB">Guido's Skinbase Repo. The world's largest skinbase with countless skin mods and skin themes from around the world. Constantly extended and improved, so there should be something for everyone Have fun.</news>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+			<screenshot>resources/screenshot-04.jpg</screenshot>
+		</assets>
+  </extension>
+</addon>
